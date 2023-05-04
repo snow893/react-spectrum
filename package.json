@@ -186,7 +186,7 @@
     "browserslist": "4.20.3"
   },
   "lint-staged": {
-    "**/*.ts?(x)": [
+    "{**/*.ts?(x),**/*.js?(x)}": [
       "eslint --fix --quiet"
     ]
   }
