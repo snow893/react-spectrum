@@ -11,7 +11,7 @@
  */
 
 import React from 'react';
-import {fireEvent, render} from '@react-spectrum/test-utils';
+import {render, fireEvent} from '@react-spectrum/test-utils';
 import {Tooltip} from '../';
 
 describe('Tooltip', function () {
